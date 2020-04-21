@@ -1,0 +1,149 @@
+
+#working-control-bar {
+    width: 100% !important;
+}
+
+#working-control-bar .slider-selection, #working-control-bar .slider-selection {
+    background: #666;
+}
+
+.working-tie {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    margin: 30px 0;
+}
+
+.working-from-value {
+    font-size: 17px;
+    font-weight: bold;
+    color: #808080 !important;
+}
+
+.working-tie, .working-progress-tie, .working-progress-tie-now {
+    min-height: 50px;
+}
+
+.working-progress-tie,
+.working-progress-tie-now {
+    position: absolute;
+}
+
+.now-value-label {
+    font-size: 16px;
+}
+
+.working-progress-tie {
+    width: 40%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.working-progress-tie-now {
+    width: 0;
+}
+
+.working-progress-value-now {
+    top: -35px;
+    border-bottom: solid 2px #3472A7;
+    padding-bottom: 0;
+}
+
+.working-progress-value {
+    bottom: -35px;
+    border-top: solid 2px #3472A7;
+    padding-top: 0;
+}
+
+.working-progress-value:after, .working-progress-value:before {
+    bottom: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.working-progress-value:before {
+    border-color: rgba(52, 114, 167, 0);
+    border-bottom-color: #3472A7;
+    border-width: 8px;
+    margin-left: -8px;
+    margin-bottom: 0.05rem;
+}
+
+.working-progress-value:after {
+    border-color: rgba(255, 255, 255, 0);
+    border-bottom-color: #ffffff;
+    border-width: 6px;
+    margin-left: -6px;
+    margin-bottom: -0.05rem;
+}
+
+.working-progress-value, .working-progress-value-now {
+    line-height: 20px;
+    position: absolute;
+    right: 0;
+    white-space: nowrap;
+    color: #3472A7;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.working-progress-value-now:after, .working-progress-value-now:before {
+    top: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.working-right-75:after, .working-right-75:before {
+    left: 75% !important;
+}
+
+.working-right-25:after, .working-right-25:before {
+    left: 25% !important;
+}
+
+.working-progress-value-now:before {
+    border-color: rgba(52, 114, 167, 0);
+    border-top-color: #3472A7;
+    border-width: 8px;
+    margin-left: -8px;
+}
+
+.working-progress-value-now:after {
+    border-color: rgba(255, 255, 255, 0);
+    border-top-color: #ffffff;
+    border-width: 6px;
+    margin-left: -6px;
+    margin-top: -1px;
+}
+
+.working-label {
+    position: relative;
+    /*margin: 8px 0 0 0;*/
+}
+
+.working-start {
+    display: inline-block;
+    margin-left: 1px;
+    /*padding-top: 15px;*/
+    padding-left: 4px;
+    /*border-left: solid 2px #666;*/
+}
+
+.working-end {
+    display: inline-block;
+    text-align: right;
+    position: absolute;
+    right: -1px;
+    /*padding-top: 15px;*/
+    padding-right: 4px;
+    /*border-right: solid 2px #666;*/
+}

@@ -1,0 +1,624 @@
+html, body {
+    color: #333;
+    background-color: #B5C7D3;
+}
+
+body {
+    padding-bottom: 15px;
+}
+
+pre {
+    background-color: transparent;
+    border-color: transparent;
+    padding: 0;
+    margin: 15px 0;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.main-section {
+    padding-top: 20px;
+}
+
+
+/*************************************************
+ * header / footer 関係
+ ************************************************/
+
+#common-header,
+#common-header-dummy,
+#header-back-img,
+#header-back-text,
+#header-back-button {
+    height: 55px;
+}
+
+#common-header,
+#common-header-dummy {
+    width: 100%;
+}
+
+#common-header {
+    position: fixed;
+    line-height: 55px;
+    z-index: 999;
+    background: #FFFFFF;
+}
+
+#header-menu-icon {
+    margin-top: -1px;
+}
+
+.btn-back, .btn-menu{
+    width:10%;
+    line-height: 3;
+    color: #B3B3B3;
+}
+
+.btn-title {
+    font-weight: bold;
+    font-size: 20px;
+    color: #0C4C6A;
+}
+
+.w-3i div {
+    width: 33.33%;
+}
+
+.w-4i div {
+    width: 25%;
+}
+
+/*************************************************
+*
+************************************************/
+
+.required {
+    color: red;
+}
+
+.form-delete-button {
+    display: inline-block;
+}
+
+.line {
+    margin: 15px 10%;
+    border-top: 1px solid #888;
+}
+
+.content {
+    padding: 0 2% 10px 2%;
+}
+
+.content-2x {
+    margin: 3% auto;
+    width: 93%;
+    padding: 5px;
+    background-color: white;
+    box-shadow: 0 0 2px 4px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 5px 6px 1px #2F4753;
+    -webkit-box-shadow: 0 5px 6px 1px #2F4753;
+}
+
+.content-2x[bg="none"] {
+    margin: 10px auto;
+    width: 96%;
+    padding: 5px;
+    background-color: transparent;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.content-form {
+    margin: 3% auto;
+    width: 93%;
+    background-color: white;
+    box-shadow: 0 0 2px 4px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 5px 6px 1px #2F4753;
+    -webkit-box-shadow: 0 5px 6px 1px #2F4753;
+}
+
+/*************************************************
+ * Popup
+ ************************************************/
+
+/*************************************************
+ * Project index
+ ************************************************/
+.btn-circle-sm, .btn-circle-lg {
+    font-size: 13px;
+}
+
+.btn-circle-sm {
+    color: #B3B3B3;
+}
+
+.btn-circle-sm img {
+    width: 45px;
+    height: 45px;
+}
+
+.btn-circle-lg img {
+    width: 62px;
+    height: 62px;
+}
+
+.index-commitments-title {
+    margin-top: 15px;
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.no-commitment {
+    font-size: 11px;
+}
+
+/*************************************************
+ * Wig index
+ ************************************************/
+
+.btn-black {
+    color: #EEEEEE;
+    background-color: #333;
+    border-color: #ccc;
+}
+
+.btn-black:hover {
+    color: #333;
+    background-color: #EEEEEE;
+    border-color: #ccc;
+}
+
+.start-date {
+    background-color: #E6E6E6;
+    font-size: 16px;
+    padding: 4px 0 4px 20px;
+    color: #83808F;
+}
+
+.start-end {
+    background-color: #E6E6E6;
+    font-size: 16px;
+    height: 28px;
+    line-height: 30px;
+    padding: 0 0 0 20px;
+    color: #83808F;
+}
+
+.start-end img {
+    vertical-align: top;
+    max-width: 1.18rem;
+    max-height: 30px;
+}
+.measure .footer .footer-btn .pull-left {
+    /*width: 33%;*/
+    text-align: center;
+}
+
+.wig .footer-btn, .measure .footer-btn, .commitment .footer-btn {
+    background-color: #F5F5F5;
+    padding: 3px 0;
+    /*line-height: 22px;*/
+    font-weight: bold;
+    text-align: center;
+}
+
+.footer-btn .disable {
+    margin-top: 17px;
+}
+
+.wig, .measure, .commitment {
+    box-shadow: 0 0 2px 4px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 5px 6px 1px #2F4753;
+    -webkit-box-shadow: 0 5px 6px 1px #2F4753;
+}
+
+.kikan {
+    margin-top: 5px;
+    color: #a3a3a3;
+}
+
+.wig {position: relative;
+    margin: 0 auto;
+    width: 95%;
+    z-index: 2;
+}
+
+.measure {
+    position: relative;
+    margin: -5px auto 0 auto;
+    width: 92%;
+    z-index: 1;
+}
+
+.commitment {
+    margin: 0 auto 0 auto;
+    width: 89%;
+    z-index: 0;
+}
+
+.wig .header, .measure .header, .commitment .header {
+    background-color: #0B4B69;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0 15px 8px 15px;
+}
+
+.commitment .header {
+  padding: 5px 15px 8px 15px;
+}
+
+.wig .header div, .measure .header div, .commitment .header div {
+    margin-top: 8px;
+}
+
+.wig .title, .measure .title {
+    background-color: #05304A;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 3px 10px 2px 10px;
+    margin: 0 auto;
+}
+
+.wig .title {
+    width: 90px;
+}
+
+.measure .title {
+    width: 150px;
+}
+
+.commitment .header {
+    background-color: white;
+    color: #CCCCCC;
+    font-size: 15px;
+    padding: 10px 15px 12px 15px;
+}
+
+.wig .body, .measure .body, .commitment .body {
+    background-color: white;
+    color: #346F8C;
+    padding: 10px 30px;
+}
+
+.wig .text, .measure .text {
+    padding: 15px !important;
+}
+
+.commitment .body {
+    padding: 0 10px 10px 10px;
+    margin-top: -1px;
+}
+
+.commitment .body .nav a {
+    padding: 5px 10px;
+}
+
+.commitment-result {
+    width: 10%;
+    text-align: center;
+}
+.commitment-result input[type=checkbox] {
+    width: 20px;
+}
+
+.head-button {
+    margin: 10px 0;
+    font-size: 15px;
+    color: #346F8C;
+    text-align: center;
+}
+
+.head-button .pull-left, .head-button .pull-right {
+    width: 50%;
+}
+
+.head-button a {
+    color: #346F8C;
+    font-weight: bold;
+}
+
+.head-button .pull-left div, .head-button .pull-right div {
+    margin-top: 6px;
+}
+
+.project-header {
+    margin-top: 18px;
+    margin-bottom: 15px;
+    font-size: 25px;
+    color: #346F8C;
+    font-weight: bold;
+}
+
+.project-header .child {
+    margin-top: 4px;
+    font-size: 15px;
+    color: #89a2b1;
+}
+
+.wig-header {
+    background-color: #6A8FA6;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 12px 5px;
+}
+
+#page-content-wrapper a {
+    text-decoration: none;
+}
+
+.commitment-title {
+    width: 90%;
+    word-wrap: break-word;
+}
+
+.break-word {
+    word-wrap: break-word;
+}
+
+/*************************************************
+ * Wig create
+ ************************************************/
+.form-control {
+    border-radius: 0;
+}
+
+.btn-save {
+    background-color: #F5F5F5;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.form-horizontal label, .form-horizontal div {
+    color: #0B4B69;
+}
+
+input[type=date].form-control
+, table#wig-pro input[type=number].form-control
+, table#wig-pro input[type=text].form-control {
+    padding: 6px 5px;
+}
+
+table#wig-pro input[type=date].form-control {
+    padding: 6px 2px;
+}
+
+table#wig-pro {
+    margin-bottom: 0;
+}
+
+table#wig-pro td, table#wig-pro th {
+    padding: 5px 4px 5px 4px;
+    font-size: 13px;
+}
+
+table#wig-pro td, table#wig-pro th {
+    border-top: none;
+}
+
+table#wig-pro tbody tr:nth-child(odd) {
+    background: #E6E6E6;
+}
+
+.wig-pro-delete {
+    width: 25px;
+    line-height: 30px !important;
+}
+
+.wig-pro-delete img {
+    width: 18px;
+}
+
+.wig-pro-title {
+    width: 63%;
+}
+
+.wig-pro-tasedo {
+    width: 20%;
+}
+
+.wig-pro-tasedo input {
+    /*max-width: 55px;*/
+}
+
+.wig-pro-mokuhyoubi {
+    max-width: 120px;
+}
+
+.wig-pro-mokuhyoubi input {
+    /*min-width: 120px;*/
+}
+
+li.active>a {
+    background-color: #F8F8F8 !important;
+}
+
+#type-1 {
+    border: 1px solid #B3B3B3;
+}
+
+/*************************************************
+ * page/index/point_wig
+ ************************************************/
+.midashi {
+    background-color: #6A8FA6;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px 5px;
+    text-align: center;
+}
+
+.mokuji {
+    margin-top: 10px;
+    padding: 12px 15px;
+}
+
+.mokuji a {
+    font-size: 14px;
+    font-weight: bold;
+    color: #dd4814;
+}
+
+.mokuji a:hover {
+    color: #97310e;
+}
+
+.mokuji ul {
+    /*list-style-type: none;*/
+    padding-left: 30px;
+}
+
+.mokuji ul li {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.komidashi {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.komidashi:target {
+    padding-top: 60px;
+    margin-top: -40px;
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth; // Added in from answer from Felix
+}
+
+.honbun {
+    margin-top: 10px;
+}
+
+.to-top {
+    position: fixed;
+
+    width: 50px !important;
+    min-width: 50px!important;
+    height: 50px!important;
+    line-height: 2 !important;
+    font-size: 18px;
+    border-radius: 50%;
+    box-shadow: 0 0 3px gray;
+
+    right: 4%;
+    bottom: 1%;
+}
+
+.wig-pro-delete {
+    width: 30px;
+}
+
+.wig-pro-delete img {
+    width: 18px;
+}
+
+/************************************************/
+.btn {
+    min-width: 60px;
+}
+
+.wd-100 {
+    width: 100px;
+}
+
+.wd-150 {
+    width: 150px;
+}
+
+.wd-200 {
+    width: 200px;
+}
+
+hr.grey {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-top: 1px solid #DCDCDC;
+}
+
+hr.grey-lg {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-top: 3px solid #DCDCDC;
+}
+
+hr.blue {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 0;
+    border-top: 2px solid #8CB4EA;
+    box-shadow: 0 1px 1px rgba(70, 162, 255, 0.5);
+}
+
+.mar-top-5 {
+    margin-top: 5px;
+}
+
+.mar-top-10 {
+    margin-top: 10px;
+}
+
+.mar-lr-5 {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.mar-lr-10 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.mar-top-20 {
+    margin-top: 20px;
+}
+
+.pad-top-5 {
+    padding-top: 5px !important;
+}
+
+.pad-top-10 {
+    padding-top: 10px !important;
+}
+
+.pad-bottom-10 {
+    padding-bottom: 10px !important;
+}
+
+.pad-bottom-5 {
+    padding-bottom: 5px !important;
+}
+
+.dis-none {
+    display: none;
+}
+
+.message {
+    margin: 10px;
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.bootbox {
+    z-index: 9999;
+}
+
+.text-grey {
+    color: #646969;
+}
+
+.text-disabled {
+    color: #CCCCCC;
+}
+
+.text-blue {
+    color: #346F8C;
+}
