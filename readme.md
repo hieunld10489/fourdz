@@ -1,13 +1,11 @@
 ### 【言語】
 
-􏰀 - PHP􏰀 (CodeIgniter)
-
-􏰀 - HTML􏰉􏰄􏰃, CSS􏰁􏰁, jQ􏰂uery (ajax)
-
-􏰀 - Bootstrap
+  - PHP (CodeIgniter)
+  - HTML, CSS, jQuery (ajax)
+  - Bootstrap
 
 ### 【DB】
-􏰀 - M􏰄ysql
+  - Mysql
 
 ### 【相性】
 
